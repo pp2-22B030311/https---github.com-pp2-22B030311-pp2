@@ -5,7 +5,7 @@ class shape():
     def area1 (self):
         print (self.plosh)
 
-class square(shape):
+class square():
     def __init__(self,a):
         self.a = a
     def area2(self):

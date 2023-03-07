@@ -2,3 +2,6 @@
 def ispalindrome(string):
     reversed_string = ''.join(reversed(string))
     return (string == reversed_string)
+a=input()
+a = ispalindrome(a)
+print(a)

@@ -19,7 +19,7 @@ def listAll(path):
     for item in os.listdir(path):
         print(item)
 
-path = 'tsis1'
+path = 'D:/pp2/TSIS/tsis 6/Python Directories and Files'
 listDirectories(path)
 listFiles(path)
 listAll(path)

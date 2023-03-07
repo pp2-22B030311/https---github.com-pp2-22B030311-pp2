@@ -10,3 +10,5 @@ def count_upper_lower(string):
             lower += 1
 
     return upper, lower
+a= count_upper_lower('DSGdsgfdsSFG')
+print(a)

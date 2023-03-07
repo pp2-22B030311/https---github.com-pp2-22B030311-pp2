@@ -3,4 +3,4 @@ from functools import reduce
 
 mylist = list((1, 2, 3, 4))
 multiplication =  reduce(lambda x, y: x*y, mylist)
-
+print(multiplication)

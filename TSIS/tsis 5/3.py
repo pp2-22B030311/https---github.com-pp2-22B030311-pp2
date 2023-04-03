@@ -1,6 +1,6 @@
 import re
 txt = input()
-x = re.findall("[a-z](_+)",txt)
+x = re.findall("[a-z]+_[a-a]+",txt)
 
 if x:
     print("yes")

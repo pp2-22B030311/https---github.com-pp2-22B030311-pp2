@@ -1,5 +1,5 @@
 #Write a Python program to write a list to a file.
-mylist = ['My', 'Name', "is", "yela"]
+mylist = ['My', 'Name', "is", "YODO"]
 
 with open("text.txt", "w") as f:
     for i in range(len(mylist)):

@@ -2,7 +2,6 @@
 import os
 
 def listDirectories(path):
-    # List only directories
     print("Directories: ")
     for item in os.listdir(path):
         if os.path.isdir(os.path.join(path, item)):
@@ -19,7 +18,7 @@ def listAll(path):
     for item in os.listdir(path):
         print(item)
 
-path = 'D:/pp2/TSIS/tsis 6/Python Directories and Files'
+path = 'C:/pp2/lab6/Python Directories and Files'
 listDirectories(path)
 listFiles(path)
 listAll(path)

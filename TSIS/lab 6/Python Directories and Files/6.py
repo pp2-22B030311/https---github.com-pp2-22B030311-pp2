@@ -2,6 +2,5 @@
 import string
 for i in string.ascii_uppercase:
     file_name = i + '.txt'
-    # print (file_name)
     with open(file_name, 'w') as f:
         pass

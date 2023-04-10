@@ -10,6 +10,8 @@ window = pygame.display.set_mode((1000, 750))
 
 pygame.display.set_caption("MickeyClock")
 
+minutes = 0 
+seconds = 0 
 check = True
 while check:
     c_time = time.localtime()
@@ -17,8 +19,8 @@ while check:
     minutes = c_time.tm_min
     seconds = c_time.tm_sec
 
-    minutes_angle = (minutes / 60) * 360
-    seconds_angle = (seconds / 60) * 360
+    minutes_angle = (minutes + 8)*6
+    seconds_angle = (seconds - 10) * 6 
 
     h1_rotated = pygame.transform.rotate(h1, -minutes_angle)
     h2_rotated = pygame.transform.rotate(h2, -seconds_angle)
@@ -40,4 +42,4 @@ while check:
             check = False
             pygame.quit()
 
-    pygame.time.wait(1000)
+    #pygame.time.wait(1000)

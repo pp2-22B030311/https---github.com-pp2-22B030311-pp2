@@ -6,8 +6,8 @@ draw=False # нажатие, зажатие - рисуем, отжали - не 
 last_pos=(0,0) 
 radius=15 
 
-dic="Yellow - 1 Green - 2 Black - 3 Red - 4 Grey - 5 Pink - 6 Purple - 7 Orange - 8 Brown - 9" 
-geom="Circle -'C' Rectangle -'R' Square -'S' Right.triangle -'Z' Equilateral.triangle -'E' Rhombus -'L' Pen -'P' erase -'/'" 
+dic= "Yellow - 1 Green - 2 Black - 3 Red - 4 Grey - 5 Pink - 6 Purple - 7 Orange - 8 Brown - 9" 
+geom= "Circle -'C' Rectangle -'R' Square -'S' Right.triangle -'Z' Equilateral.triangle -'E' Rhombus -'L' Pen -'P' erase -'/'" 
 
 color=(0, 0, 0) 
 

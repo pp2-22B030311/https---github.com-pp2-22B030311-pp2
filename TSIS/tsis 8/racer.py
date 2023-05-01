@@ -111,7 +111,7 @@ while True:
     #Cycles through all events occurring  
     for event in pygame.event.get():
         if event.type == INC_SPEED:
-              SPEED += 0     
+              SPEED += 5    
         if event.type == QUIT:
             pygame.quit()
             sys.exit()
